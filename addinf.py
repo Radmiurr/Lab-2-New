@@ -14,8 +14,8 @@ def tabl():
 
         new_data = {'id': i,
                     'Mat': 'Математика - баллы/часы: %s;' % m,
-                    'Rus': 'Математика - баллы/часы: %s;' % r,
-                    'Prog': 'Математика - баллы/часы: %s;' % p,
+                    'Rus': 'Русский - баллы/часы: %s;' % r,
+                    'Prog': 'Программирование - баллы/часы: %s;' % p,
                     'epsents': 'Колво-пропусков: %s' % e}
         with open('students.json', encoding='utf8') as k:
             data = json.load(k)
